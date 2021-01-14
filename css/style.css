@@ -126,12 +126,13 @@ p{
     border-bottom: 1px solid #CECECE;
     border-radius: 0;
 }
-.form-control:ho{
-    border: none;
-}
 
 .form-control::placeholder{
     color: rgb(182, 177, 177);
+}
+.form-control:focus{
+    color:#34265f;
+    font-weight: 600;
 }
 
 /* ./ Contact Section */
