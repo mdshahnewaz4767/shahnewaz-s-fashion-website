@@ -75,6 +75,9 @@
     .content-img{
         width: 90%;
     }
+    .content-height{
+        margin-top: -9px;
+    }
     
 }
 @media only screen and (max-width: 575px){
@@ -97,6 +100,9 @@
     }  
     .mt-sm-2{
         margin-top: 1rem;
+    }
+    .content-height{
+        margin-top: -16px;
     }
 }
 @media only screen and (min-width: 467px) and (max-width: 1199px){
