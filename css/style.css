@@ -57,6 +57,7 @@ p{
     border-radius: 10px;
     transition: all .5s ease;
     background-size: 200% auto;
+    border: none;
 }
 .greenbtn:hover{
     color: white;
