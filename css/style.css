@@ -73,6 +73,8 @@ span{
 .product-item{
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    height: auto;
 }
 .bg-gray{
     background-color:rgb(241, 240, 240);
@@ -84,4 +86,10 @@ span{
 .product-item span{
     color:#f5b622de;
     font-size: 30px;
-}    
+}  
+.shadow-one{
+    box-shadow: 0px 3px 23px 12px #efeeeead;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+}
+/* End Product Section */
