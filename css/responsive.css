@@ -1,5 +1,16 @@
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
     .container{
-        max-width: 1200px;
+        max-width: 1150px;
     }    
+}
+@media only screen and (min-width: 992px){
+    .header-icon{
+        width: 170px;
+        margin-top: -2.5rem;
+    }   
+}
+@media only screen and (max-width: 991px){
+    .header-icon{
+        display: none;
+    }   
 }
