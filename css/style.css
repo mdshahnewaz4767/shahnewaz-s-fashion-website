@@ -2,20 +2,26 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0%;
-    background-color: rgb(255, 248, 248);
     box-sizing: border-box;
 }
 h1{
     font-size: 53px;
     text-transform: uppercase;
-    color:#f5b422;
+    color:#f5b422f0;
     font-weight: 600;
     line-height: 60px;
 }
-span{
-    color: #34265f;
+h2{
+    font-size: 35px;
+}
+h5{
     font-weight: 600;
 }
+span{
+    color: #34265fe3;
+    font-weight: 600;
+}
+/* Start Header Section */
 .navbar-nav li{
     padding: 0px 14px;
 }
@@ -27,15 +33,24 @@ span{
 .navbar-nav li a:hover{
     color: #606e26;
 }
+.padding-top{
+    padding: 30px;
+}
+.bg-color{
+    background-color: rgb(255, 248, 248);
+}
 .nav-icon{
     color: #fff;
 }
+/* End NavBar Section */
+
+/* Start Content Section */
 .greenbtn{
     color: white;
     font-weight: 500;
     font-size: 14px;
     background-image: linear-gradient(to right, #a4bc46 0%, #41491e 51%, #4a5323 100%);
-    padding: 14px 30px;
+    padding: 12px 30px;
     border-radius: 10px;
     transition: all .5s ease;
     background-size: 200% auto;
@@ -44,3 +59,29 @@ span{
     color: white;
     background-image: linear-gradient(to right, #8a9c3f 100%, #41491e 51%, #3d441d 0%);
 }
+/* End Content Section */
+
+/* Start Product Section */
+.item-color{
+    color: #34265f;
+    font-weight: 600;
+}
+.product-item img{
+    width: 100%;
+    padding: 15px;
+}
+.product-item{
+    display: flex;
+    flex-direction: column;
+}
+.bg-gray{
+    background-color:rgb(241, 240, 240);
+    border-radius: 20px;
+}
+.product-item p{
+    color: rgb(85, 84, 84);
+}
+.product-item span{
+    color:#f5b622de;
+    font-size: 30px;
+}    

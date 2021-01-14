@@ -7,7 +7,10 @@
     .header-icon{
         width: 170px;
         margin-top: -2.5rem;
-    }   
+    } 
+    .content-height{
+        height: 530px;
+    }  
 }
 @media only screen and (max-width: 991px){
     .header-icon{
