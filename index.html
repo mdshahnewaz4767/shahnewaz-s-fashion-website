@@ -14,11 +14,11 @@
 </head>
 <body>
     <!-- Start Header Section -->
-    <header class="bg-color">
+    <header class="bg-color header-top">
         <nav class="navbar navbar-expand-lg w-100 padding-top">
             <div class="container">
                 <div>
-                    <a class="navbar-brand d-flex" href="#">
+                    <a class="navbar-brand d-lg-flex" href="index.html">
                         <img src="logo-icons/main-logo-2.png" alt="logo">
                     </a>
                 </div>
@@ -35,7 +35,7 @@
                             <a class="nav-link" href="#woman-jacket">Woman Jacket</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#man-jacket">Men's Jacket</a>
+                            <a class="nav-link" href="#men's-jacket">Men's Jacket</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact us</a>
@@ -50,9 +50,9 @@
     <!-- Start Content Section -->
     <section class="mb-5 bg-color content-height">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-5">
-                    <h1 class="pb-2">Grey Mandarin 
+            <div class="d-md-flex align-items-md-center">
+                <div class="col-12 col-md-5 col-lg-5">
+                    <h1 class="pb-2 mt-sm-2">Grey Mandarin 
                         <br>
                         <span>Neck Jacket</span>
                     </h1>
@@ -63,8 +63,8 @@
                     </button>
                 </div>
                 <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <img src="images/female-jacket.png" alt="" class="w-100">
+                <div class="col-12 col-md-5 col-lg-5">
+                    <img src="images/female-jacket.png" alt="" class="content-img">
                 </div>
                 <div class="col-md-1"></div>
             </div>
@@ -72,12 +72,12 @@
     </section>
     <!-- End Content Section -->
     
-    <!-- Start Main Section -->
+    <!-- Main Section -->
     <main class="container">
         <!-- Start Product Section -->
         <section class="bg-white">
             <!-- Woman Section -->
-            <div class="mb-5">
+            <div class="mb-5"  id="woman-jacket">
                 <h2 class="item-color mb-5">Woman Jacket</h2>
                 <div class="row g-4">
                     <div class="col-sm-6 col-md-4 p-3">
@@ -138,7 +138,7 @@
             </div>
             <!-- ./ Woman Section -->
             <!-- Men's Section -->
-            <div class="mb-5">
+            <div class="mb-5" id="men's-jacket">
                 <h2 class="item-color mb-5">Men's Jacket</h2>
                 <div class="row g-4 margin-7">
                     <div class="col-sm-6 col-md-4 p-3">
@@ -199,9 +199,12 @@
             </div>
             <!-- ./ Men's Section -->
 
-            <div class="bg-white mb-5 d-flex align-items-center">
-                <div class="col-md-5">
-                    <article class="blog d-flex align-items-center mb-5 shadow-one">
+            <div class="bg-white mb-5 d-lg-flex align-items-center">
+                <div class="col-12 mb-4 d-lg-none">
+                    <img src="/logo-icons/XMLID-1.png" alt="XMLID" class="w-100">
+                </div>
+                <div class="blogs col-lg-5 col-12">
+                    <article class="blog justify-content-lg-center d-lg-flex align-items-center mb-5 shadow-one">
                         <div class="blog-image">
                             <img src="logo-icons/image-1.png" alt="image-1" width="75">
                         </div>
@@ -210,7 +213,7 @@
                             <p class="text-color">Everybody is different, which is why we offer styles for every body.</p>
                         </div>
                     </article>
-                    <article class="blog d-flex align-items-center mb-5 shadow-one">
+                    <article class="blog d-lg-flex align-items-center mb-5 shadow-one">
                         <div class="blog-image">
                             <img src="logo-icons/image-2.png" alt="image-2" width="75">
                         </div>
@@ -219,7 +222,7 @@
                             <p class="text-color">One of the many reasons you can shop with peace of mind.</p>
                         </div>
                     </article>
-                    <article class="blog d-flex align-items-center mb-5 shadow-one">
+                    <article class="blog d--lg-flex align-items-center mb-5 shadow-one">
                         <div class="blog-image">
                             <img src="logo-icons/image-3.png" alt="image-3" width="75">
                         </div>
@@ -230,21 +233,17 @@
                     </article>
                 </div>
                 <div class="col-md-1"></div>
-                <div class="col-md-6 mb-4">
-                    <div>
-                        <img src="/logo-icons/XMLID-1.png" alt="XMLID" class="w-100">
-                    </div>
+                <div class="col-lg-6 mb-4 col-sm-12 display-none">
+                    <img src="/logo-icons/XMLID-1.png" alt="XMLID" class="w-100">
                 </div>
             </div>
         </section>
         <!-- End Product Section -->
-
-        
     </main>
-    <!-- End Main Section -->
+    <!-- ./Main Section -->
 
     <!-- Start Contact Section -->
-    <section class="container">
+    <section class="container" id="contact">
         <div class="contact-title mb-5">
             <h2 class="text-center" style="color:#34265f;">Get In Touch</h2>
         </div>
@@ -273,41 +272,39 @@
     </section>
     <!-- End Contact Section -->
 
-    <!-- <footer class="last-part">
-        <p>This website made by © Muhammad Shahnewaz, all right reserved..</p>
-    </footer> -->
+    <!-- Start Footer Section -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <ul class="social-icons list-unstyled d-flex justify-content-center mb-0">
                         <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/muhammad-shahnewaz601/">
                                 <i class="fab fa-facebook-f t-white"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/muhammad-shahnewaz601/">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/muhammad-shahnewaz601/">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/muhammad-shahnewaz601/">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/muhammad-shahnewaz601/">
                                 <i class="fab fa-google-plus-g"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/muhammad-shahnewaz601/">
                                 <i class="far fa-envelope"></i>
                             </a>
                         </li>
@@ -317,6 +314,8 @@
             </div>
         </div>
     </footer>
+    <!-- End Footer Section -->
+
     <!-- JS File -->
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/all.min.js"></script>

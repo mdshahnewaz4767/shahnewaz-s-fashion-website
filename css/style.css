@@ -7,11 +7,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 h1{
-    font-size: 53px;
     text-transform: uppercase;
     color:#f5b422f0;
     font-weight: 600;
-    line-height: 60px;
 }
 h2{
     font-size: 35px;
@@ -31,9 +29,7 @@ p{
     font-size: 14px;
 }
 /* Start Header Section */
-.navbar-nav li{
-    padding: 0px 14px;
-}
+
 .navbar-nav li a{
     color: rgb(44, 44, 44);
     font-weight: 600;
@@ -41,9 +37,6 @@ p{
 }
 .navbar-nav li a:hover{
     color: #606e26;
-}
-.padding-top{
-    padding: 30px;
 }
 .bg-color{
     background-color: rgb(255, 248, 248);
@@ -59,6 +52,7 @@ p{
     font-weight: 500;
     font-size: 14px;
     background-image: linear-gradient(to right, #a4bc46 0%, #41491e 51%, #4a5323 100%);
+    width: auto;
     padding: 12px 30px;
     border-radius: 10px;
     transition: all .5s ease;
@@ -139,9 +133,7 @@ p{
 .form-control::placeholder{
     color: rgb(182, 177, 177);
 }
-.w-20{
-    width: 20%;
-}
+
 /* ./ Contact Section */
 
 /* Footer Section */
